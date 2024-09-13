@@ -1,0 +1,104 @@
+ .header {
+height: 80px;
+font-weight: 600;
+}
+.header ul{
+    justify-content: end;
+    display: flex;
+    gap: 30px;
+    height: 80px;
+    align-items: center;
+    margin-right: 30px;
+  }
+  .header ul li{
+    list-style: none;
+  }
+  .header ul li:hover{
+   color: rgb(0, 140, 255);
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  @media only screen and (max-width:500px){
+    .header{
+        height: 60px;
+    }
+    .header ul{
+        justify-content: end;
+        display: flex;
+        gap: 10px;
+        height: 60px;
+        align-items: center;
+        margin-right: 10px;
+        font-size: 12px;
+      }
+}
+
+
+
+
+/*<------------------------THEME-------------------------------->*/
+/*
+.header ul {
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    overflow: hidden;
+}
+
+.header ul li {
+    display: flex;
+    font-weight: 500;
+    font-size: large;
+    color: black;
+}
+
+.header ul li .first {
+    height: 20px;
+    width: 25px;
+    background-color: blue;
+    border-width: 2px 0px 2px 2px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+.header ul li .second {
+    height: 20px;
+    width: 25px;
+    background-color: rgb(13, 255, 0);
+    border-width: 2px 2px 2px 0px;
+    border-style: solid;
+    border-color: white;
+
+}
+
+.header ul li ul {
+    position: absolute;
+    right: -10px;
+    top: 20px;
+    padding: 10px;
+    transition: height 1s linear;
+    height: 10px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.header ul li ul li {
+    padding-top: 10px;
+    height: 10px;
+    transition: height .3s linear;
+}
+
+.header ul:hover {
+    overflow: visible;
+}
+
+.header ul:hover li ul {
+    height: 110px;
+    transition: all .3s ease-in-out;
+}
+
+.header ul:hover li ul li {
+    height: 30px;
+} */

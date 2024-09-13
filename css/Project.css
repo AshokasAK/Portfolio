@@ -1,0 +1,110 @@
+h3{
+    color: black;
+    font-size: 30px;
+    margin-top: 3rem;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:.5rem;
+    padding: 0px 50px;
+    gap:6rem;
+    overflow: scroll;
+    height: 560px;
+}
+.projects::-webkit-scrollbar{
+display: none;
+}
+ .projects img{
+    width: 320px;
+    height: 520px;
+    border-radius: 20px;
+    transition: all .2s linear;
+    transform: scale(1.01);
+}
+.projects div:hover img{
+    transform: scale(.9)
+}
+.projects div{
+    position: relative;
+    width: 330px;
+    height: 530px;
+    box-shadow: 3px 7px 10px rgb(83, 82, 82);
+    border-radius: 20px;
+    border: 5px solid rgba(168, 167, 167, 0.755);
+    /* overflow: hidden; */
+}
+.projects div .covering{
+    width: 330px;
+    height: 530px;
+    border-radius: 20px;
+    background-color: rgba(46, 46, 46, 0.655);
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 20px;
+   line-height: 1;
+   display: none;
+   transition: all .2s linear;
+   border: none;
+}
+.projects div .covering p{
+    color: white;
+    font-size: 20px;
+    margin-right: 2rem;
+    transform: translateY(0px);  
+}
+.projects div:hover  .covering{
+    line-height:2;
+    display: flex;
+}
+
+@media only screen and (max-width:500px) {
+    h3{
+        color: black;
+        font-size: 20px;
+        margin-top: .5rem;
+        font-weight: 500;
+        margin-left: 10px;
+    }   
+    .projects{
+        gap:2rem;
+        height: 560px;
+        margin-top: -2rem;
+    }  
+ .projects img{
+    width: 220px;
+    height: 420px;
+    border-radius: 20px;
+    transition: all .2s linear;
+    transform: scale(1.01);
+}
+.projects div{
+    position: relative;
+    width: 230px;
+    height: 430px;
+    box-shadow: 3px 7px 10px rgb(83, 82, 82);
+    border-radius: 20px;
+    border: 5px solid rgba(168, 167, 167, 0.755);
+    /* overflow: hidden; */
+}
+.projects div .covering{
+    width: 230px;
+    height: 430px;
+}
+.projects div .covering p{
+    color: white;
+    font-size: 15px;
+    margin-right: -1rem;
+}
+}

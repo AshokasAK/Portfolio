@@ -1,0 +1,315 @@
+
+.singlecontainer{
+    background-color: rgba(230, 230, 230, 0.189);
+    height: auto;
+}
+.singleContent{
+    padding: 20px 30px;
+}
+.singlePro{
+display: flex;
+align-items: center;
+}
+.singlePro aside img{
+width: 300px;
+border-radius: 20px;
+border: 10px solid rgb(0, 0, 0);
+}
+.singlePro section .proname{
+font-size: 28px;
+color: rgb(0, 98, 255);
+position: absolute;
+top: 150px;
+left: 380px;
+}
+.singlePro section .date{
+font-weight: 700;
+color: rgb(60, 61, 62);
+position: absolute;
+top: 190px;
+left: 380px;
+}
+.singlePro section .tools{
+ display: flex;
+}
+.singlePro section .tools h4 {
+    font-size: 17px;
+    position: absolute;
+    top: 240px;
+    left: 380px;
+}
+.singlePro section .tools small {
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 240.5px;
+    left: 438px;
+}
+.singlePro section h5{
+    font-size: 17px;
+    position: absolute;
+    left: 380px;
+    top: 300px;
+}
+.singlePro section p{
+font-size: 15px;
+position: absolute;
+left: 415px;
+line-height: 2;
+top: 325px;
+text-align: justify;
+color: rgb(75, 75, 75);
+}
+.workingtime{
+    margin-top: 4rem;
+    overflow: auto;
+    margin-left:50px;
+    margin-right:50px;
+}
+.workingtime::-webkit-scrollbar{
+display: none;
+scroll-behavior: smooth;
+}
+.workingtime span{
+    font-size: 19px;
+    font-weight: 700;
+    position: absolute;
+    top: 650px;
+}
+.workingtime aside{
+display: flex;
+gap: 2rem;
+}
+.workingtime aside .f{
+height: 450px;
+width: 420px;
+}
+.workingtime img{
+    width: 800px;
+}
+/* css of Project.css, the projects was changed to .nxtPro */
+
+.nxtPro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6rem;
+    padding: 0px 50px;
+    gap:6rem;
+    overflow: scroll;
+    height: 560px;
+
+}
+.nxtPro::-webkit-scrollbar{
+display: none;
+}
+
+ .nxtPro img{
+    width: 300px;
+    height: 520px;
+    border-radius: 20px;
+    box-shadow: 3px 7px 10px rgb(83, 82, 82);
+    border-radius: 20px;
+    transition: all .2s linear;
+    transform: scale(1.01)
+
+}
+.nxtPro div:hover img{
+    transform: scale(.9)
+}
+
+.nxtPro div{
+    position: relative;
+    width: 310px;
+    height: 530px;
+    box-shadow: 3px 7px 10px rgb(83, 82, 82);
+    border-radius: 20px;
+    border: 5px solid rgba(168, 167, 167, 0.755);
+    /* overflow: hidden; */
+}
+.nxtPro div .covering{
+    width: 310px;
+    height: 530px;
+    border-radius: 20px;
+    background-color: rgba(46, 46, 46, 0.655);
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 20px;
+   line-height: 1;
+   display: none;
+   transition: all .2s linear;
+}
+.nxtPro div .covering p{
+    color: white;
+    font-size: 20px;
+    margin-right: 2rem;
+    transform: translateY(0px);
+    
+}
+.nxtPro div:hover  .covering{
+    line-height:2;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.spanhome{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+.home{
+    font-size: 30px;
+   display: flex;
+   align-items: center;
+    margin-top: 4rem;
+    color: rgb(0, 119, 255);
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px rgb(66, 65, 65);
+}
+.weatheric{
+margin-left: 15rem;
+}
+.simplef{
+    margin-left: 18rem;
+}
+
+@media only screen and (max-width:500px) {
+    .singlePro aside img{
+        width: 200px;
+        border-radius: 20px;
+        border: 4px solid rgb(0, 0, 0);
+        }
+        .singlePro section .proname{
+            font-size: 16px;
+            color: rgb(0, 98, 255);
+            position: absolute;
+            top: 450px;
+            left: 50px;
+            }
+            .singlePro section .date{
+                font-weight: 500;
+                color: rgb(60, 61, 62);
+                position: absolute;
+                top: 475px;
+                left: 50px;
+                }
+                .singlePro section .tools h4 {
+                    font-size: 17px;
+                    position: absolute;
+                    top: 510px;
+                    left: 50px;
+                }
+                .singlePro section .tools small {
+                    font-size: 14px;
+                    font-weight: 500;
+                    position: absolute;
+                    top: 513.5px;
+                    left: 110px;
+                }
+                .singlePro section h5{
+                    font-size: 17px;
+                    position: absolute;
+                    top: 565px;
+                    left: 50px;
+                }
+                .singlePro section p{
+                font-size: 13px;
+                position: absolute;
+                top: 585px;
+                left: 60px;
+                }   
+                .weatheric{
+                    margin-left: .5rem;
+                }  
+                .simplef{
+                    margin-left: .5rem;
+                }      
+                .workingtime{
+                    margin-top: 28rem;
+                    overflow: auto;
+                    margin-left:50px;
+                    margin-right:50px;
+                }
+                .workingtime::-webkit-scrollbar{
+                display: none;
+                scroll-behavior: smooth;
+                }
+                .workingtime span{
+                    font-size: 16px;
+                    font-weight: 700;
+                    position: absolute;
+                    top: 840px;
+                    left: 60px;
+                }
+                .workingtime aside{
+                display: flex;
+                gap: 1rem;
+                }
+                .workingtime img{
+                    width: 300px;
+                    height: 250px;
+                }
+                .workingtime aside .f{
+                    height: 250px;
+                    width: 300px;
+                    }
+                .nxtPro{
+                gap:2rem;
+                margin-top: -2rem;
+                margin-bottom: 10rem;
+                }
+                .nxtPro::-webkit-scrollbar{
+                display: none;
+                }
+                
+                 .nxtPro img{
+                    width: 230px;
+                    height: 420px;
+                }
+                .nxtPro div:hover img{
+                    transform: scale(.9)
+                }
+                
+                .nxtPro div{
+                    width: 240px;
+                    height: 430px;
+                }
+                .nxtPro div .covering{
+                    width: 240px;
+                    height: 430px;
+                }
+                .nxtPro div .covering p{
+                    color: white;
+                    font-size: 16px;
+                    margin-right: -2rem;
+                }
+                .spanhome{
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 2rem;
+                }
+                .home{
+                    font-size: 15px;
+                 position: absolute;
+                 bottom: 200px;
+                 align-items: center;
+                 color: rgb(0, 119, 255);
+                 background-color: white;
+                 width: fit-content;
+                 padding: 5px;
+                 border-radius: 5px;
+                 box-shadow: 3px 5px 10px rgb(66, 65, 65);
+                }
+}

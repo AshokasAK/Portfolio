@@ -1,0 +1,178 @@
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 5rem;
+    gap: 6rem;
+}
+.skills li{
+    display: flex;
+    width: 500px;
+   justify-content: space-between;
+   position: relative;
+}
+.skills li b{
+    position: absolute;
+    top: -31px; 
+     left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 21px; 
+}
+.skills  .same .env b {
+position: absolute;
+left: 70px;
+width: 300px;
+}
+.skills li span{
+    padding:10px;
+    border-radius: 5px;
+    box-shadow: 4px 3px 10px rgb(140, 139, 139);
+    margin-left: 10px;
+    animation: float 2s infinite linear;
+}
+.skills li span:hover{
+    transform: scale(1.1);
+}
+.skills .html{
+    background-image: url('../public/skillicon/html.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:white;
+    height: 100px;
+    width: 100px;
+}
+.skills .css{
+    background-image: url('../public/skillicon/css.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color:white;
+    height: 100px;
+    width: 100px;
+}
+.skills .js{
+    background-image: url('../public/skillicon/js.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:white;
+    height: 100px;
+    width: 100px;
+}
+.skills .react{
+    background-image: url('../public/skillicon/react.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:white;
+    height: 100px;
+    width: 100px;
+}
+.skills .node{
+    background-image: url('../public/skillicon/nodejs.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:white;
+    height: 100px;
+    width: 100px;
+}
+.skills .express{
+    background-image: url('../public/skillicon/express.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:white;
+    height: 100px;
+    width: 100px;
+}
+.skills .bootstrap{
+    background-image: url('../public/skillicon/bootstrap.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:white;
+    height: 100px;
+    width: 100px;
+}
+.skills .mongodb{
+    background-image: url('../public/skillicon/mongodb.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:white;
+    height: 100px;
+    width: 100px;
+}
+.skills .same{
+    width: 50%;
+    display: flex;
+    margin-left: 20%;
+}
+
+@media only screen and (max-width:500px){
+    .skills li{
+        width: 350px;
+    }
+    .skills li b{
+        position: absolute;
+        top: -31px; 
+         left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 15px; 
+    }
+    .skills .pl span{
+       height: 60px;
+       width: 60px;
+    }
+    .skills .fw span{
+       height: 60px;
+       width: 60px;
+    }
+    .skills .env span{
+       height: 60px;
+       width: 60px;
+       margin-left: -50px;
+    }
+    .skills .db span{
+       height: 60px;
+       width: 60px;
+       margin-left: 35px;
+    }
+    .skills  .same .env b {
+        position: absolute;
+        left: 50px;
+        width: 300px;
+        }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes float{
+
+                        0%{
+                            transform: translateY(-1px);
+                        }
+                        50%{
+                            transform: translateY(1px);
+                        }
+                        100%{
+                            transform: translateY(-1px);
+                        }
+                        
+                    }
+                    

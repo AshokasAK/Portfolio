@@ -1,0 +1,31 @@
+.summary{
+    margin-top: .5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.summary h4{
+font-size: 22px;
+margin-bottom: 10px;
+margin-top: 2rem;
+}
+.summary p{
+    font-size: 17px;
+    font-weight: 500;
+    word-spacing: 3px;
+    line-height: 1.5;
+}
+.summary ol{
+    margin-left:1.5rem;
+}
+.summary ol li{
+    font-size: 17px;
+    font-weight: 500;
+    word-spacing: 3px;
+}
+@media only screen and (max-width:500px) {
+    .summary{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        height: 904px;
+    } 
+}

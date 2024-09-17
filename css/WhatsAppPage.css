@@ -10,11 +10,58 @@
 display: flex;
 align-items: center;
 }
-.singlePro aside img{
+
+/*---------------------------------------------*/
+/* .singlePro aside img{
+width: 300px;
+border-radius: 20px;
+border: 10px solid rgb(0, 0, 0);
+} */
+
+.singlePro aside .proimgsi1{
+background-image: url('../public/project/pro1.png');
+background-size: cover;
+height: 500px;
 width: 300px;
 border-radius: 20px;
 border: 10px solid rgb(0, 0, 0);
 }
+.singlePro aside .proimgsi2{
+background-image: url('../public/project/pro2.png');
+background-size: cover;
+height: 500px;
+width: 300px;
+border-radius: 20px;
+border: 10px solid rgb(0, 0, 0);
+}
+.singlePro aside .proimgsi3{
+background-image: url('../public/project/pro3.png');
+background-size: cover;
+height: 500px;
+width: 300px;
+border-radius: 20px;
+border: 10px solid rgb(0, 0, 0);
+}
+.singlePro aside .proimgsi4{
+background-image: url('../public/project/pro4.png');
+background-size: cover;
+height: 500px;
+width: 300px;
+border-radius: 20px;
+border: 10px solid rgb(0, 0, 0);
+}
+.singlePro aside .proimgsi5{
+background-image: url('../public/project/pro5.png');
+background-size: cover;
+height: 500px;
+width: 300px;
+border-radius: 20px;
+border: 10px solid rgb(0, 0, 0);
+}
+
+
+/*---------------------------------------------*/
+
 .singlePro section .proname{
 font-size: 28px;
 color: rgb(0, 98, 255);
@@ -104,7 +151,9 @@ width: 420px;
 display: none;
 }
 
- .nxtPro img{
+/*--------------------------------------------*/
+
+ /* .nxtPro img{
     width: 300px;
     height: 520px;
     border-radius: 20px;
@@ -112,11 +161,77 @@ display: none;
     border-radius: 20px;
     transition: all .2s linear;
     transform: scale(1.01)
+} */
 
+.nxtPro .proimg1{
+    background-image: url('../public/project/pro1.png');
+    background-size: contain;
+    width: 300px;
+    height: 520px;
+    border-radius: 20px;
+    transition: all .2s linear;
+    transform: scale(1.01);
 }
-.nxtPro div:hover img{
+ .nxtPro .proimg2{
+    background-image: url('../public/project/pro2.png');
+    background-size: contain;
+    width: 300px;
+    height: 520px;
+    border-radius: 20px;
+    transition: all .2s linear;
+    transform: scale(1.01);
+}
+ .nxtPro .proimg3{
+    background-image: url('../public/project/pro3.png');
+    background-size: contain;
+    width: 300px;
+    height: 520px;
+    border-radius: 20px;
+    transition: all .2s linear;
+    transform: scale(1.01);
+}
+.nxtPro .proimg4{
+    background-image: url('../public/project/pro4.png');
+    background-size: contain;
+    width: 300px;
+    height: 520px;
+    border-radius: 20px;
+    transition: all .2s linear;
+    transform: scale(1.01);
+}
+ .nxtPro .proimg5{
+    background-image: url('../public/project/pro5.png');
+    background-size: contain;
+    width: 300px;
+    height: 520px;
+    border-radius: 20px;
+    transition: all .2s linear;
+    transform: scale(1.01);
+}
+/*---------------------------------------------------------*/
+
+/*-----------------------------------------*/
+/* .nxtPro div:hover img{
+    transform: scale(.9)
+} */
+
+.nxtPro div:hover .proimg1{
     transform: scale(.9)
 }
+.nxtPro div:hover .proimg2{
+    transform: scale(.9)
+}
+.nxtPro div:hover .proimg3{
+    transform: scale(.9)
+}
+.nxtPro div:hover .proimg4{
+    transform: scale(.9)
+}
+.nxtPro div:hover .proimg5{
+    transform: scale(.9)
+}
+
+/*-----------------------------------------*/
 
 .nxtPro div{
     position: relative;
@@ -186,11 +301,61 @@ margin-left: 15rem;
 }
 
 @media only screen and (max-width:500px) {
-    .singlePro aside img{
+
+    /*-----------------------------------------*/
+    /* .singlePro aside img{
         width: 200px;
         border-radius: 20px;
         border: 4px solid rgb(0, 0, 0);
+        } */
+
+
+    .singlePro aside .proimgsi1{
+        height: 350px; /*It was an important to notice*/
+        width: 210px;
+        background-size: cover;
+        border-radius: 20px;
+        border: 4px solid rgb(0, 0, 0);
+        margin-left: 4rem;
         }
+    .singlePro aside .proimgsi2{
+        height: 350px; /*It was an important to notice*/
+        width: 210px;
+        background-size: cover;
+        border-radius: 20px;
+        border: 4px solid rgb(0, 0, 0);
+        margin-left: 4rem;
+        }
+    .singlePro aside .proimgsi3{
+        height: 350px; /*It was an important to notice*/
+        width: 210px;
+        background-size: cover;
+        border-radius: 20px;
+        border: 4px solid rgb(0, 0, 0);
+        margin-left: 4rem;
+        }
+    .singlePro aside .proimgsi4{
+        height: 350px; /*It was an important to notice*/
+        width: 210px;
+        background-size: cover;
+        border-radius: 20px;
+        border: 4px solid rgb(0, 0, 0);
+        margin-left: 4rem;
+        }
+    .singlePro aside .proimgsi5{
+        height: 350px; /*It was an important to notice*/
+        width: 210px;
+        background-size: cover;
+        border-radius: 20px;
+        border: 4px solid rgb(0, 0, 0);
+        margin-left: 4rem;
+        }
+
+        
+
+    /*-----------------------------------------*/
+
+
         .singlePro section .proname{
             font-size: 16px;
             color: rgb(0, 98, 255);
@@ -229,6 +394,7 @@ margin-left: 15rem;
                 position: absolute;
                 top: 585px;
                 left: 60px;
+                margin-right: 1rem;
                 }   
                 .weatheric{
                     margin-left: .5rem;
@@ -274,10 +440,6 @@ margin-left: 15rem;
                 display: none;
                 }
                 
-                 .nxtPro img{
-                    width: 230px;
-                    height: 420px;
-                }
                 .nxtPro div:hover img{
                     transform: scale(.9)
                 }
@@ -312,4 +474,45 @@ margin-left: 15rem;
                  border-radius: 5px;
                  box-shadow: 3px 5px 10px rgb(66, 65, 65);
                 }
+                /*-------------------------------------*/
+                .nxtPro img{
+                   width: 230px;
+                   height: 420px;
+               }
+               .nxtPro .proimg1{
+                width: 230px;
+                height: 420px;
+                border-radius: 20px;
+                transition: all .2s linear;
+                transform: scale(1.01);
+             }
+            .nxtPro .proimg2{
+                width: 230px;
+                height: 420px;
+                border-radius: 20px;
+                transition: all .2s linear;
+                transform: scale(1.01);
+             }
+             .nxtPro .proimg3{
+                width: 230px;
+                height: 420px;
+                border-radius: 20px;
+                transition: all .2s linear;
+                transform: scale(1.01);
+             }
+             .nxtPro .proimg4{
+                width: 230px;
+                height: 420px;
+                border-radius: 20px;
+                transition: all .2s linear;
+                transform: scale(1.01);
+             }
+             .nxtPro .proimg5{
+                width: 230px;
+                height: 420px;
+                border-radius: 20px;
+                transition: all .2s linear;
+                transform: scale(1.01);
+             }
+
 }

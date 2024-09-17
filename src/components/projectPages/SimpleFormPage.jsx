@@ -15,7 +15,10 @@ const SimpleFormPage = () => {
    <div className="singlecontainer">
         <div className="singleContent">
             <div className="singlePro">
-                <aside> <img src="../public/project/pro2.png" alt="" /></aside>
+                <aside>
+                     {/* <img src="../public/project/pro2.png" alt="" /> */}
+                     <p className="proimgsi2"></p>
+                </aside>
                 <section>
                     <h4 className='proname'>Simple Form <span>
                        (Input control) </span></h4>
@@ -42,7 +45,8 @@ const SimpleFormPage = () => {
             <div className="nxtPro">
             <Link to={'/whatsAppProject'}>
             <div className="pro5 ">
-        <img src="../public/project/pro5.png" alt="" />
+        {/* <img src="../public/project/pro5.png" alt="" /> */}
+        <p className="proimg5"></p>
         <div className="covering">
             <p>Aug  26</p>
              <p> WhatsappClone</p>
@@ -55,7 +59,8 @@ const SimpleFormPage = () => {
 
   <Link to={'/swiggyProject'}>
   <div className="pro4">
-        <img src="../public/project/pro4.png" alt="" />
+        {/* <img src="../public/project/pro4.png" alt="" /> */}
+        <p className="proimg4"></p>
         <div className="covering">
             <p> Aug  20</p>
             <p>Swiggy Clone</p>
@@ -69,7 +74,8 @@ const SimpleFormPage = () => {
 
   <Link to={'/weatherProject'}>
   <div className="pro3">
-        <img src="../public/project/pro1.png" alt="" />
+        {/* <img src="../public/project/pro1.png" alt="" /> */}
+        <p className="proimg1"></p>
         <div className="covering">
             <p>Aug 10</p>
             <p> Weather App</p>
@@ -83,7 +89,8 @@ const SimpleFormPage = () => {
 
   <Link to={'/todolistProject'}>
     <div className="pro1">
-        <img src="../public/project/pro3.png" alt="" />
+        {/* <img src="../public/project/pro3.png" alt="" /> */}
+        <p className="proimg3"></p>
         <div className="covering">
             <p>Aug 6</p>
             <p>CRUD TODO List</p>

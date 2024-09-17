@@ -16,7 +16,11 @@ const SwiggyPage = () => {
      <div className="singlecontainer">
         <div className="singleContent">
             <div className="singlePro">
-                <aside> <img src="../public/project/pro4.png" alt="" /></aside>
+                <aside>
+                     {/* <img src="../public/project/pro4.png" alt="" /> */}
+                     <p className="proimgsi4"></p>
+
+                     </aside>
                 <section>
                     <h4 className='proname'>Swiggy Clone</h4>
                     <small className='date'>Aug 11 - Aug 20</small>
@@ -43,8 +47,9 @@ const SwiggyPage = () => {
 
             <div className="nxtPro">
             <Link to={'/whatsAppProject'}>
-            <div className="pro5 ">
-        <img src="../public/project/pro5.png" alt="" />
+    <div className="pro5 ">
+        {/* <img src="../public/project/pro5.png" alt="" /> */}
+        <p className="proimg5 pig"></p>
         <div className="covering">
             <p>Aug  26</p>
              <p> WhatsappClone</p>
@@ -57,7 +62,9 @@ const SwiggyPage = () => {
 
   <Link to={'/weatherProject'}>
     <div className="pro3">
-        <img src="../public/project/pro1.png" alt="" />
+        {/* <img src="../public/project/pro1.png" alt="" />
+         */}
+        <p className="proimg1 pig"></p>
         <div className="covering">
             <p>Aug 10</p>
             <p> Weather App</p>
@@ -71,7 +78,8 @@ const SwiggyPage = () => {
 
   <Link to={'/simpleformProject'}>
     <div className="pro2">
-        <img src="../public/project/pro2.png" alt="" />
+        {/* <img src="../public/project/pro2.png" alt="" /> */}
+        <p className="proimg2 pig"></p>
         <div className="covering">
             <p>Aug 8</p>
             <p>Simple Form</p> 
@@ -84,7 +92,8 @@ const SwiggyPage = () => {
 
   <Link to={'/todolistProject'}>
     <div className="pro1">
-        <img src="../public/project/pro3.png" alt="" />
+        {/* <img src="../public/project/pro3.png" alt="" /> */}
+        <p className="proimg3 pig"></p>
         <div className="covering">
             <p>Aug 6</p>
             <p>CRUD TODO List</p>

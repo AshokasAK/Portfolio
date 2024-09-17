@@ -18,14 +18,59 @@ h3{
 .projects::-webkit-scrollbar{
 display: none;
 }
- .projects img{
+ /* .projects img{
+    width: 320px;
+    height: 520px;
+    border-radius: 20px;
+    transition: all .2s linear;
+    transform: scale(1.01);
+} */
+ .projects .proimg1{
+    background-image: url('../public/project/pro1.png');
+    background-size: contain;
     width: 320px;
     height: 520px;
     border-radius: 20px;
     transition: all .2s linear;
     transform: scale(1.01);
 }
-.projects div:hover img{
+ .projects .proimg2{
+    background-image: url('../public/project/pro2.png');
+    background-size: contain;
+    width: 320px;
+    height: 520px;
+    border-radius: 20px;
+    transition: all .2s linear;
+    transform: scale(1.01);
+}
+ .projects .proimg3{
+    background-image: url('../public/project/pro3.png');
+    background-size: contain;
+    width: 320px;
+    height: 520px;
+    border-radius: 20px;
+    transition: all .2s linear;
+    transform: scale(1.01);
+}
+ .projects .proimg4{
+    background-image: url('../public/project/pro4.png');
+    background-size: contain;
+    width: 320px;
+    height: 520px;
+    border-radius: 20px;
+    transition: all .2s linear;
+    transform: scale(1.01);
+}
+ .projects .proimg5{
+    background-image: url('../public/project/pro5.png');
+    background-size: contain;
+    width: 320px;
+    height: 520px;
+    border-radius: 20px;
+    transition: all .2s linear;
+    transform: scale(1.01);
+}
+.projects div:hover .pig{
     transform: scale(.9)
 }
 .projects div{
@@ -82,15 +127,8 @@ display: none;
         height: 560px;
         margin-top: -2rem;
     }  
- .projects img{
-    width: 220px;
-    height: 420px;
-    border-radius: 20px;
-    transition: all .2s linear;
-    transform: scale(1.01);
-}
-.projects div{
-    position: relative;
+    .projects div{
+        position: relative;
     width: 230px;
     height: 430px;
     box-shadow: 3px 7px 10px rgb(83, 82, 82);
@@ -106,5 +144,47 @@ display: none;
     color: white;
     font-size: 15px;
     margin-right: -1rem;
+}
+/* .projects img{
+   width: 220px;
+   height: 420px;
+   border-radius: 20px;
+   transition: all .2s linear;
+   transform: scale(1.01);
+} */
+.projects .proimg1{
+   width: 220px;
+   height: 420px;
+   border-radius: 20px;
+   transition: all .2s linear;
+   transform: scale(1.01);
+}
+.projects .proimg2{
+   width: 220px;
+   height: 420px;
+   border-radius: 20px;
+   transition: all .2s linear;
+   transform: scale(1.01);
+}
+.projects .proimg3{
+   width: 220px;
+   height: 420px;
+   border-radius: 20px;
+   transition: all .2s linear;
+   transform: scale(1.01);
+}
+.projects .proimg4{
+   width: 220px;
+   height: 420px;
+   border-radius: 20px;
+   transition: all .2s linear;
+   transform: scale(1.01);
+}
+.projects .proimg5{
+   width: 220px;
+   height: 420px;
+   border-radius: 20px;
+   transition: all .2s linear;
+   transform: scale(1.01);
 }
 }

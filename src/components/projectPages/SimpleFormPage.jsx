@@ -20,8 +20,10 @@ const SimpleFormPage = () => {
                      <div className="proimgsi2"></div>
                 </aside>
                 <section>
+                    <a href="https://github.com/AshokasAK/Userf-orm.git">
                     <h4 className='proname'>Simple Form <span>
                        (Input control) </span></h4>
+                       </a>
                     <small className='date'>Aug 6 - Aug 8</small>
                     <div className="tools">
                         <h4>Skills : </h4>

@@ -22,9 +22,11 @@ const TodoListPage = () => {
 
             </aside>
             <section>
+              <a href="https://github.com/AshokasAK/TODO-LIST.git">
               <h4 className="proname">
                 TODO List <span>(CRUD)</span>
               </h4>
+              </a>
               <small className="date">Aug 3 - Aug 6</small>
               <div className="tools">
                 <h4>Skills : </h4>

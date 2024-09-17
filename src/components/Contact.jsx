@@ -1,15 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../../css/Contact.css'
 import { Link } from 'react-router-dom'
 
 const Contact = () => {
 
 
-  const onSubmit = async (event) => {
+  const onSubmitt = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key","07c86766-7a7c-41fd-8551-3a7c365a6d5a");
+    formData.append("access_key", "07c86766-7a7c-41fd-8551-3a7c365a6d5a");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -27,8 +27,6 @@ const Contact = () => {
       console.log("Success", res);
     }
   };
-
-
     return (
         <>
 
@@ -43,7 +41,10 @@ const Contact = () => {
         >Get  in  touch:</h4>
 
         <div className="form">
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmitt}>
+
+        <input type="hidden" name="access_key" value="07c86766-7a7c-41fd-8551-3a7c365a6d5a" />
+
           <label htmlFor="name">NAME
           <input type="text" name='name' id='name'
           placeholder='Enter Your Name'
@@ -62,6 +63,7 @@ const Contact = () => {
           <button type='submit' className='send'>SEND</button>
         </form>
         </div>
+
 
 
 

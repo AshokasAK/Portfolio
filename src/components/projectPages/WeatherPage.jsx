@@ -23,7 +23,9 @@ const WeatherPage = () => {
 
             </aside>
             <section>
+              <a href="https://github.com/AshokasAK/Weather-Today.git">
               <h4 className="proname">Weather App</h4>
+              </a>
               <small className="date">Aug 8 - Aug 10</small>
               <div className="tools">
                 <h4>Skills : </h4>

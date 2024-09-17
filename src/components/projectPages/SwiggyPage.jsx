@@ -22,7 +22,9 @@ const SwiggyPage = () => {
 
                      </aside>
                 <section>
+                    <a href="https://github.com/AshokasAK/Swiggy-Clone.git">
                     <h4 className='proname'>Swiggy Clone</h4>
+                    </a>
                     <small className='date'>Aug 11 - Aug 20</small>
                     <div className="tools">
                         <h4>Skills : </h4>

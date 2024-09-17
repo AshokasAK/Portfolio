@@ -22,7 +22,9 @@ const SingleProject = () => {
 
             </aside>
             <section>
+              <a href="https://github.com/AshokasAK/WhatsApp-Clone.git">
               <h4 className="proname">WhatsApp Clone</h4>
+              </a>
               <small className="date">Aug 21 - In Progress</small>
               <div className="tools">
                 <h4>Skills : </h4>

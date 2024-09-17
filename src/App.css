@@ -13,6 +13,7 @@ hr{
   filter: saturate(1);
   scroll-behavior: smooth;
   height: fit-content;
+  width: 100vw;
 }
 
 .shape1 {

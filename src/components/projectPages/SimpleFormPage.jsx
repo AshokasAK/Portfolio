@@ -38,7 +38,8 @@ const SimpleFormPage = () => {
             <div className="workingtime">
                 <span>Outlooks of the Project :</span>
                 <aside>
-                <img className='simplef' src='../../../public/projectoutlook/simpleformout.png' alt="" />
+                {/* <img className='simplef' src='../../../public/projectoutlook/simpleformout.png' alt="" /> */}
+                <p className="outsf out"></p>
 
                 </aside>
             </div>

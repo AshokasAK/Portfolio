@@ -44,11 +44,12 @@ const WeatherPage = () => {
           <div className="workingtime">
             <span>Outlooks of the Project :</span>
             <aside>
-              <img
+              {/* <img
                 className="weatheric"
                 src="../../../public/projectoutlook/weatherout.png"
                 alt=""
-              />
+              /> */}
+              <p className="outwe out"></p>
             </aside>
           </div>
           <div className="nxtPro">

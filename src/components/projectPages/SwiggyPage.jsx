@@ -38,9 +38,10 @@ const SwiggyPage = () => {
             <div className="workingtime">
                 <span>Outlooks of the Project :</span>
                 <aside>
-                <img src='../../../public/projectoutlook/swiggyout1.png' alt="" />
-                <img src='../../../public/projectoutlook/swiggyout2.png' alt="" />
-
+                {/* <img src='../../../public/projectoutlook/swiggyout1.png' alt="" /> */}
+                {/* <img src='../../../public/projectoutlook/swiggyout2.png' alt="" /> */}
+                <p className="outsgy1 out"></p>
+                <p className="outsgy2 out"></p>
                 
                 </aside>
             </div>

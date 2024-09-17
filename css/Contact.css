@@ -42,9 +42,6 @@
 }
 #linkedinicon:hover{
     background-color: #4387fe;
-    /* padding: 10px 18px;  */
-    /* padding: 8px 12px;  */
-
     border-radius: 10px;
     box-shadow: 2px 2px 10px #70a2f8;
     color: white;
@@ -52,12 +49,22 @@
 }
 .naukridiv{
     position: relative; 
-   
     background-color:transparent;
     height: 50px;
     width: 50px; 
     padding-inline: 8px 8px 8px 1px;
 }
+ /* .naukri1{
+    background: url('../public/skillicon/naukri1.png');
+    background-size: cover;
+    width: 10px;
+    height:10px
+}
+.naukri2{
+    background: url('../public/skillicon/naukri.png');
+    width: 10px;
+    height:10px
+} */
 .naukridiv:hover{
    background-color: #3066f9;
    border-radius: 10px;

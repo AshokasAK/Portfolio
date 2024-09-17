@@ -84,14 +84,16 @@ const TodoListPage = () => {
           <div className="workingtime">
             <span>Outlooks of the Project :</span>
             <aside>
-              <img
+              {/* <img
                 src="../../../public/projectoutlook/todolistout1.png"
                 alt=""
-              />
-              <img
+              /> */}
+              {/* <img
                 src="../../../public/projectoutlook/todolistout2.png"
                 alt=""
-              />
+              /> */}
+              <p className="outtodo1 out"></p>
+              <p className="outtodo2 out"></p>
             </aside>
           </div>
           <div className="nxtPro">

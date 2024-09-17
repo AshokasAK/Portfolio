@@ -131,16 +131,94 @@ gap: 2rem;
 height: 450px;
 width: 420px;
 }
+
+/*----------------------------------------*/
 .workingtime img{
     width: 800px;
 }
+.workingtime .outsf{
+    background-image: url('../public/projectoutlook/simpleformout.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 350px;
+    margin-top: 1rem;
+}
+.workingtime .outsgy1{
+    background-image: url('../public/projectoutlook/swiggyout1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 350px;
+    margin-top: 1rem;
+}
+.workingtime .outsgy2{
+    background-image: url('../public/projectoutlook/swiggyout2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 350px;
+    margin-top: 1rem;
+}
+.workingtime .outtodo1{
+    background-image: url('../public/projectoutlook/todolistout1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 350px;
+    margin-top: 1rem;
+}
+.workingtime .outtodo2{
+    background-image: url('../public/projectoutlook/todolistout2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 350px;
+    margin-top: 1rem;
+}
+.workingtime .outwe{
+    background-image: url('../public/projectoutlook/weatherout.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 350px;
+    margin-top: 1rem;
+}
+.workingtime .outwp1{
+    background-image: url('../public/projectoutlook/whatsappout.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 300px;
+    margin-top: 1rem;
+}
+.workingtime .outwp2{
+    background-image: url('../public/projectoutlook/scr1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 300px;
+    margin-top: 1rem;
+}
+.workingtime .outwp3{
+    background-image: url('../public/projectoutlook/scr2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 300px;
+    margin-top: 1rem;
+    margin-left: -10rem;
+}
+
+
+/*------------------------------------------*/
 /* css of Project.css, the projects was changed to .nxtPro */
 
 .nxtPro{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 6rem;
+    margin-top: 3rem;
     padding: 0px 50px;
     gap:6rem;
     overflow: scroll;
@@ -423,17 +501,40 @@ margin-left: 15rem;
                 display: flex;
                 gap: 1rem;
                 }
-                .workingtime img{
+
+                /*-------------------------------------------*/
+                
+                /* .workingtime img{
+                    width: 300px;
+                    height: 250px;
+                } */
+                .workingtime .out{
                     width: 300px;
                     height: 250px;
                 }
+                /* .workingtime .outwp1{
+                    width: 300px;
+                    height: 250px;
+                } */
+                .workingtime .outwp2{
+                    width: 300px;
+                    height: 250px;
+                    display: none;
+                }
+                .workingtime .outwp3{
+                    width: 300px;
+                    height: 250px;
+                    display: none;
+                }
+
+                /*-------------------------------------------*/
                 .workingtime aside .f{
                     height: 250px;
                     width: 300px;
                     }
                 .nxtPro{
                 gap:2rem;
-                margin-top: -2rem;
+                margin-top: -6rem;
                 margin-bottom: 10rem;
                 }
                 .nxtPro::-webkit-scrollbar{

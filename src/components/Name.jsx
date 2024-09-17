@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import '../../css/Name.css'
+import Naukri from '../../public/skillicon/naukri.png'
+import Naukri1 from '../../public/skillicon/naukri1.png'
 
 const Name = () => {
 const span = useRef(null)
@@ -53,8 +55,8 @@ useEffect(() => {
           </a>
           <a href="https://www.naukri.com/mnjuser/homepage">
           <div className="naukridiv">
-          <img className='naukri1' src='../../public/skillicon/naukri1.png'/>
-          <img className='naukri'  src='../../public/skillicon/naukri.png'/>
+          <img className='naukri1' src={Naukri1}/>
+          <img className='naukri'  src={Naukri}/>
           </div>
           </a>
         </section>

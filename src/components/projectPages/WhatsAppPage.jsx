@@ -45,20 +45,23 @@ const SingleProject = () => {
           <div className="workingtime">
             <span>Outlooks of the Project :</span>
             <aside>
-              <img
+              {/* <img
                 src="../../../public/projectoutlook/whatsappout.png"
                 alt=""
-              />
-              <img
+              /> */}
+              {/* <img
                 className="f"
                 src="../../../public/projectoutlook/scr1.png"
                 alt=""
-              />
-              <img
+              /> */}
+              {/* <img
                 className="f"
                 src="../../../public/projectoutlook/scr2.png"
                 alt=""
-              />
+              /> */}
+              <p className="outwp1 out"></p>
+              <p className="outwp2 out"></p>
+              <p className="outwp3 out"></p>
             </aside>
           </div>
           <div className="nxtPro">

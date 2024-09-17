@@ -9,16 +9,18 @@ font-weight: 600;
     height: 80px;
     align-items: center;
     margin-right: 30px;
+    z-index: 1111;
   }
   .header ul li{
     list-style: none;
+    z-index: 111111;
   }
   .header ul li:hover{
    color: rgb(0, 140, 255);
   }
   a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   @media only screen and (max-width:500px){

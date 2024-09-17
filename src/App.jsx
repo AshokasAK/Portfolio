@@ -37,10 +37,10 @@ function App() {
         <Route path='/simpleformProject' element={<SimpleFormPage/>}/> 
         <Route path='/todolistProject' element={<TodoListPage/>}/> 
     </Routes>
-        <div className="shape1">
+        {/* <div className="shape1">
     </div>
     <div className="shape2">
-    </div>
+    </div> */}
 
       </div>
         

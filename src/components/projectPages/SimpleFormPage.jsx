@@ -17,7 +17,7 @@ const SimpleFormPage = () => {
             <div className="singlePro">
                 <aside>
                      {/* <img src="../public/project/pro2.png" alt="" /> */}
-                     <p className="proimgsi2"></p>
+                     <div className="proimgsi2"></div>
                 </aside>
                 <section>
                     <h4 className='proname'>Simple Form <span>

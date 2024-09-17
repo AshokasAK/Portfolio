@@ -10,7 +10,7 @@ h3{
     justify-content: space-around;
     align-items: center;
     margin-top:.5rem;
-    padding: 0px 50px;
+    padding: 0px 100px;
     gap:6rem;
     overflow: scroll;
     height: 560px;
@@ -126,6 +126,7 @@ display: none;
         gap:2rem;
         height: 560px;
         margin-top: -2rem;
+        padding: 0px 50px;
     }  
     .projects div{
         position: relative;

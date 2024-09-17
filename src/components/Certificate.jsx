@@ -27,14 +27,16 @@ const Certificate = () => {
     <p className='certpara'>I have attented the online workshops and gains knowledge about the funtamentals, these are the proofs ,</p>
     <div className="certificates">
         <div className="cert1 cert">
-    <img src="../public/certificate/html.png" alt="" />
+    {/* <img src="../public/certificate/html.png" alt="" /> */}
+    <p className='img1'></p>
         </div>
         <div className="cert2 cert">
-    <img src="../public/certificate/css.png" alt="" />
-
+    {/* <img src="../public/certificate/css.png" alt="" /> */}
+    <p className='img2'></p>
         </div>
         <div className="cert3 cert">
-    <img src="../public/certificate/mern.png" alt="" />
+    {/* <img src="../public/certificate/mern.png" alt="" /> */}
+    <p className='img3'></p>
         </div>
     </div>
     </>

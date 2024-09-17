@@ -22,13 +22,39 @@
 display: none;
 scroll-behavior: smooth;
 }
-.certificates img {
+/* .certificates .cert .img {
   width: 440px;
   height: 290px;
   box-shadow: 0px 5px 15px rgb(97, 97, 97);
   margin-right: 4rem;
-  /* padding: 0px 50px; */
-}
+  background-image: url('../public/certificate/html.png');
+  background-image: cover;
+  /* padding: 0px 50px; 
+} */
+ .img1{
+  box-shadow: 0px 5px 15px rgb(97, 97, 97);
+  background-image: url('../public/certificate/html.png');
+  width: 460px;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .img2{
+  box-shadow: 0px 5px 15px rgb(97, 97, 97);
+  background-image: url('../public/certificate/css.png');
+  width: 460px;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .img3{
+  box-shadow: 0px 5px 15px rgb(97, 97, 97);
+  background-image: url('../public/certificate/mern.png');
+  width: 460px;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
 
 @media only screen and (max-width:500px){
   .certpara {
@@ -42,7 +68,19 @@ scroll-behavior: smooth;
   .certificates {
     gap: 30px;
   }
-  .certificates img {
+  .certificates .img1 {
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 5px 15px rgb(97, 97, 97);
+    margin-left: 4rem;
+  }
+  .certificates .img2 {
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 5px 15px rgb(97, 97, 97);
+    margin-left: 4rem;
+  }
+  .certificates .img3 {
     width: 300px;
     height: 200px;
     box-shadow: 0px 5px 15px rgb(97, 97, 97);
